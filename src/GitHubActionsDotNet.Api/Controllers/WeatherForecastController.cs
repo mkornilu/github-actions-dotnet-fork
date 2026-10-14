@@ -29,3 +29,5 @@ public class WeatherForecastController : ControllerBase
     })
         .ToArray();
 }
+
+//to test komentarz
