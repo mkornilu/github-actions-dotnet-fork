@@ -8,10 +8,12 @@ public class WeatherForecastTests
     public void TemperatureFShouldReturnCorrectValueBasedOnTemperatureC()
     {
         var weatherForecast = new WeatherForecast
+        
         {
             TemperatureC = 0
         };
 
+        weatherForecast.TemperatureF.Should().Be(32);
         weatherForecast.TemperatureF.Should().Be(32);
     }
 }
