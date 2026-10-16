@@ -8,6 +8,7 @@ public class WeatherForecastTests
     public void TemperatureFShouldReturnCorrectValueBasedOnTemperatureC()
     {
         var weatherForecast = new WeatherForecast
+        
         {
             TemperatureC = 0
         };
