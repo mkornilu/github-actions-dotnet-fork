@@ -47,7 +47,7 @@ jobs:
 
   deploy-prod:
       name: Deploy Prod
-      needs: deploy-dev
-      uses: ./github/workflows/step-deploy.yml
+      needs: build
+      uses: ./.github/workflows/step-deploy.yml
       with:
         env: prod
